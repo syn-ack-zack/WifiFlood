@@ -14,7 +14,7 @@ remote_port = 80 			# The remote port of the server
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP uses Datagram, but not stream
 	
 #payload = inputFile.read(PAYLOAD_SIZE) # Read the next segment payload
-payload = "aewnocihaol287018j" * 3000
+payload = "aewnocihaol28107018j" * 3000
 segment = struct.pack("s", payload)
 ack_num = -1
 
