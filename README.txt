@@ -1,5 +1,3 @@
-InfoSecurity
-============
 WifiWipe README
 
 Installation/Deployment:
